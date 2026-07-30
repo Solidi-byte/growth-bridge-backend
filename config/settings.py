@@ -18,6 +18,7 @@ DEBUG = os.environ.get('RENDER', '') == ''
 
 # Allows your local server AND your future live Render server to run
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://growth-bridge-nexus.onrender.com']
 
 
 # Application definition
